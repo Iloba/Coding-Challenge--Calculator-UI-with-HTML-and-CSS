@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: tahoma, sans-serif;
+}
+body{
+	background: teal;
+}
+.main-div{
+	background: #fff;
+	width: 60%;
+	margin: auto;
+	margin-top: 80px;
+}
+.main-top{
+	height: 150px;
+}
+.main-body{
+	background: grey;
+	padding: 12px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+}
+.cal-head{
+	float: right;
+	margin: 12px;
+	margin-top: 90px;
+}
+.main-item{
+	background: black;
+	color: #fff; 
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	cursor: pointer;
+}
